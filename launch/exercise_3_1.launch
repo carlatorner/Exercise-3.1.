@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<launch>
+
+	<!-- load parameters-->
+	<group ns = "master_uvic">
+		<rosparam command="load" file="$(find exercise_3_1)/parameters.yaml" />
+	</group>
+	
+	<!-- rviz -->
+	<node name="rviz" pkg="rviz" type="rviz"/>
+
+	<!-- usb_cam-test -->
+	<include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+
+</launch>
