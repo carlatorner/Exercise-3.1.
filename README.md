@@ -1,4 +1,4 @@
-# Exercise-3.1.
+# Exercise-3.1.- Robotics Intergration
 
 <h2> Información: </h2>
 <p>Este repositorio forma parte del ejercicio 3.1. del MasterUVIC-Robotica para practicar el roslaunch. </p>
